@@ -28,7 +28,7 @@
         "predis/predis": "~1.0",
         "wp-cli/wp-cli": "^1.0",
 
-        "sparkdevelopment/laughlandjones-theme": "master"
+        "sparkdevelopment/laughlandjones-theme": "dev-master"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -59,17 +59,8 @@
             "url": "https://wp-cli.org/package-index"
         },
         {
-            "type": "package",
-            "package": {
-                "name": "sparkdevelopment/laughlandjones-theme",
-                "type": "wordpress-theme",
-                "version": "master",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:sparkdevelopment/laughlandjones-theme.git",
-                    "reference": "master"
-                }
-            }
+            "type": "git",
+            "url": "git@github.com:sparkdevelopment/laughlandjones-theme.git"
         }
     ],
     "extra": {
@@ -87,5 +78,7 @@
         "post-install-cmd": [
             "./support/app_slug_compile.sh"
         ]
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
