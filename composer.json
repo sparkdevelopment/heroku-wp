@@ -58,7 +58,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git"
+            "url": "git@github.com:sparkdevelopment/laughlandjones-theme.git"
         }
     ],
     "extra": {
