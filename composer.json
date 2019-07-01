@@ -55,6 +55,10 @@
         {
             "type": "composer",
             "url": "https://wp-cli.org/package-index"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git"
         }
     ],
     "extra": {
