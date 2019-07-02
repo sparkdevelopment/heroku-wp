@@ -1103,7 +1103,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "5bf67877dd7ebeb691f38f821c4dda0882ff5dbf"
+                "reference": "dc4103a3eb3f3813d2ac4dbd71c6fe81fc5024b3"
             },
             "require": {
                 "cmb2/cmb2": "dev-master",
@@ -1115,13 +1115,18 @@
                 "wp-coding-standards/wpcs": "0.14.*"
             },
             "type": "wordpress-theme",
+            "autoload": {
+                "files": [
+                    "vendor/cmb2/cmb2/init.php"
+                ]
+            },
             "scripts": {
                 "lint": [
                     "phpcs --standard=.phpcs.xml ./"
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-07-02 17:15:00"
+            "time": "2019-07-02 17:40:25"
         },
         {
             "name": "symfony/config",
@@ -3618,15 +3623,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "7.4.1",
+            "version": "7.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/7.4.1"
+                "reference": "tags/7.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.7.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.7.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
