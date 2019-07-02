@@ -1103,7 +1103,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "53d68d5bff072a163afa7644846d2054a2b6c7ec"
+                "reference": "91bf40f1e8486f1b0ad4c54681b5564e9aa1d0ec"
             },
             "require": {
                 "cmb2/cmb2": "dev-master",
@@ -1115,18 +1115,13 @@
                 "wp-coding-standards/wpcs": "0.14.*"
             },
             "type": "wordpress-theme",
-            "autoload": {
-                "files": [
-                    "vendor/cmb2/cmb2/init.php"
-                ]
-            },
             "scripts": {
                 "lint": [
                     "phpcs --standard=.phpcs.xml ./"
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-07-01 22:01:37"
+            "time": "2019-07-02 13:38:31"
         },
         {
             "name": "symfony/config",
