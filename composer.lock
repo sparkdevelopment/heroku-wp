@@ -48,59 +48,6 @@
             "time": "2016-09-09 18:37:55"
         },
         {
-            "name": "cmb2/cmb2",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CMB2/CMB2.git",
-                "reference": "008d9b83263d971d6bd41c27e31113db852d5ef3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CMB2/CMB2/zipball/008d9b83263d971d6bd41c27e31113db852d5ef3",
-                "reference": "008d9b83263d971d6bd41c27e31113db852d5ef3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.2.4"
-            },
-            "require-dev": {
-                "apigen/apigen": "4.1.2",
-                "nette/utils": "2.5.3",
-                "phpunit/phpunit": "6.5.13"
-            },
-            "suggest": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "WebDevStudios",
-                    "email": "contact@webdevstudios.com",
-                    "homepage": "https://github.com/WebDevStudios",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Justin Sternberg",
-                    "email": "justin@dsgnwrks.pro",
-                    "homepage": "https://dsgnwrks.pro",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
-            "homepage": "https://github.com/CMB2/CMB2",
-            "keywords": [
-                "metabox",
-                "plugin",
-                "wordpress"
-            ],
-            "time": "2019-01-21 04:30:08"
-        },
-        {
             "name": "composer/ca-bundle",
             "version": "1.1.4",
             "source": {
@@ -1103,10 +1050,9 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "dc4103a3eb3f3813d2ac4dbd71c6fe81fc5024b3"
+                "reference": "e4bfcf511153b5aabe3fa763b07fd912f9947348"
             },
             "require": {
-                "cmb2/cmb2": "dev-master",
                 "mobiledetect/mobiledetectlib": "^2.8",
                 "php": ">=5.2.4"
             },
@@ -1115,18 +1061,13 @@
                 "wp-coding-standards/wpcs": "0.14.*"
             },
             "type": "wordpress-theme",
-            "autoload": {
-                "files": [
-                    "vendor/cmb2/cmb2/init.php"
-                ]
-            },
             "scripts": {
                 "lint": [
                     "phpcs --standard=.phpcs.xml ./"
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-07-02 17:40:25"
+            "time": "2019-07-02 18:05:19"
         },
         {
             "name": "symfony/config",
