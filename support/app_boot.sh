@@ -45,6 +45,10 @@ fi
 NOW=$( date )
 echo "Dyno Booted   : $NOW" >> public.built/.heroku-wp
 
+# Compile theme assets
+npm install --cwd "public.built/wp-content/themes/laughlandjones-theme/"
+npm run prod --cwd "public.built/wp-content/themes/laughlandjones-theme/"
+
 # Boot up!
 vendor/bin/heroku-php-nginx \
   -C support/nginx.inc.conf \
