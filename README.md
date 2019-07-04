@@ -250,3 +250,8 @@ If your computer goes to sleep and vagrant is suspended abruptly
 Sometimes after `vagrant up` from an aborted state, the vm does not start correctly and the site is not accessible. When this happens force a re-provision of the machine with
 
     $ vagrant provision
+
+
+## Laughland Jones
+
+To deploy latest changes run `./build/build.sh`
