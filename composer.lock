@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8611104f445e79f2b8f96aee42cff453",
+    "content-hash": "74e5f26f2d807aea82032edba9b04760",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3550,6 +3550,27 @@
             "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.zip?timestamp=1559739047",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/",
+            "time": "2019-06-05T12:50:47+00:00"
+        },
+        {
             "name": "wpackagist-plugin/secure-db-connection",
             "version": "1.1.6",
             "source": {
@@ -3595,6 +3616,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "automattic/batcache": 20,
+        "wpackagist-plugin/regenerate-thumbnails": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
