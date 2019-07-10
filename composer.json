@@ -21,6 +21,7 @@
         "wpackagist-plugin/redis-cache": "~1",
         "wpackagist-plugin/secure-db-connection": "~1",
         "wpackagist-plugin/regenerate-thumbnails":"dev-trunk",
+        "wpackagist-plugin/simplejpegquality":"dev-trunk",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",

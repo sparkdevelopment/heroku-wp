@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "74e5f26f2d807aea82032edba9b04760",
+    "content-hash": "b945f83224bc97832b33437295b3734b",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3609,6 +3609,27 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/simplejpegquality",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simplejpegquality/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simplejpegquality.zip?timestamp=1411916867",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simplejpegquality/",
+            "time": "2014-09-28T15:07:47+00:00"
         }
     ],
     "packages-dev": [],
@@ -3617,6 +3638,7 @@
     "stability-flags": {
         "automattic/batcache": 20,
         "wpackagist-plugin/regenerate-thumbnails": 20,
+        "wpackagist-plugin/simplejpegquality": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
