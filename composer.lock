@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "70586b25b9379aeb94bdf9a101dd41ca",
+    "content-hash": "955e1e76dca632382502158246250d71",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3531,6 +3531,27 @@
             "time": "2019-05-09T00:13:29+00:00"
         },
         {
+            "name": "wpackagist-plugin/imagemagick-engine",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imagemagick-engine/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imagemagick-engine.zip?timestamp=1540811865",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imagemagick-engine/",
+            "time": "2018-10-29T11:17:45+00:00"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "7.5.2",
             "source": {
@@ -3661,6 +3682,7 @@
         "wpackagist-plugin/regenerate-thumbnails": 20,
         "wpackagist-plugin/simplejpegquality": 20,
         "wpackagist-plugin/health-check": 20,
+        "wpackagist-plugin/imagemagick-engine": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
