@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b945f83224bc97832b33437295b3734b",
+    "content-hash": "70586b25b9379aeb94bdf9a101dd41ca",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3510,6 +3510,27 @@
             "time": "2019-04-01T15:03:00+00:00"
         },
         {
+            "name": "wpackagist-plugin/health-check",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/health-check/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/health-check.zip?timestamp=1557360809",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/health-check/",
+            "time": "2019-05-09T00:13:29+00:00"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "7.5.2",
             "source": {
@@ -3639,12 +3660,13 @@
         "automattic/batcache": 20,
         "wpackagist-plugin/regenerate-thumbnails": 20,
         "wpackagist-plugin/simplejpegquality": 20,
+        "wpackagist-plugin/health-check": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "ext-gd": "*",
+        "ext-imagick": "*",
         "php": "7.*"
     },
     "platform-dev": []

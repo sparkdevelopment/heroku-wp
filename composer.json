@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "php": "7.*",
         "ext-imagick": "*",
+        "php": "7.*",
 
         "WordPress/WordPress": "*",
 
