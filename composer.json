@@ -24,6 +24,7 @@
         "wpackagist-plugin/simplejpegquality":"dev-trunk",
         "wpackagist-plugin/health-check":"dev-trunk",
         "wpackagist-plugin/imagemagick-engine":"dev-trunk",
+        "wpackagist-plugin/contact-form-7":"dev-trunk",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
