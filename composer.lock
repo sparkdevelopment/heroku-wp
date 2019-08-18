@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a71388107aa3e0053b3162f9711921e",
+    "content-hash": "e7e45e7f53726788a7cf737814481c3a",
     "packages": [
         {
             "name": "WordPress/WordPress",
-            "version": "4.9.7",
+            "version": "5.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.9.7.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/5.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -45,7 +45,7 @@
                 "forum": "https://wordpress.org/support/plugin/batcache",
                 "source": "https://github.com/Automattic/batcache"
             },
-            "time": "2016-09-09 18:37:55"
+            "time": "2016-09-09T18:37:55+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-08-18 14:24:58"
+            "time": "2019-08-18T14:24:58+00:00"
         },
         {
             "name": "symfony/config",
