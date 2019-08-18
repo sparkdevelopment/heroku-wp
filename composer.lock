@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3608721d087b6efa6275140542a48703",
+    "content-hash": "ea0ad92e948211245ab4380be4d9f6d1",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1000,7 +1000,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "8fc6b61b44ffb9d42c92e767368be07d161dfb84"
+                "reference": "37fe35c68df0474fcac011443f2db5151e997bab"
             },
             "require": {
                 "php": ">=5.2.4"
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-08-18 14:24:58"
+            "time": "2019-08-18 16:27:19"
         },
         {
             "name": "symfony/config",
@@ -3533,27 +3533,6 @@
             "time": "2019-08-04T16:32:56+00:00"
         },
         {
-            "name": "wpackagist-plugin/health-check",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/health-check/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/health-check.zip?timestamp=1565953974",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/health-check/",
-            "time": "2019-08-16T11:12:54+00:00"
-        },
-        {
             "name": "wpackagist-plugin/imagemagick-engine",
             "version": "dev-trunk",
             "source": {
@@ -3697,27 +3676,6 @@
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         },
         {
-            "name": "wpackagist-plugin/simplejpegquality",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/simplejpegquality/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simplejpegquality.zip?timestamp=1411916867",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/simplejpegquality/",
-            "time": "2014-09-28T15:07:47+00:00"
-        },
-        {
             "name": "wpackagist-plugin/speed-booster-pack",
             "version": "dev-trunk",
             "source": {
@@ -3766,8 +3724,6 @@
     "stability-flags": {
         "automattic/batcache": 20,
         "wpackagist-plugin/regenerate-thumbnails": 20,
-        "wpackagist-plugin/simplejpegquality": 20,
-        "wpackagist-plugin/health-check": 20,
         "wpackagist-plugin/imagemagick-engine": 20,
         "wpackagist-plugin/contact-form-7": 20,
         "wpackagist-plugin/nginx-helper": 20,
