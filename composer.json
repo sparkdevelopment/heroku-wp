@@ -53,7 +53,7 @@
             }
         },
         {
-            "type": "package",
+            "type": "wordpress-plugin",
             "package": {
                 "name": "cmb2/tabs",
                 "version": "1.0.3",
