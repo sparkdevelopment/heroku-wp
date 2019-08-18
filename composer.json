@@ -13,6 +13,9 @@
     ],
     "require": {
         "ext-imagick": "*",
+        "ext-bcmath": "*",
+        "ext-exif": "*",
+        "ext-mbstring": "*",
         "php": "7.*",
 
         "WordPress/WordPress": "*",
