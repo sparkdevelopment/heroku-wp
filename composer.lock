@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e41a3fa6fa2508103817d22df05cb65e",
+    "content-hash": "0a71388107aa3e0053b3162f9711921e",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1000,7 +1000,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "0d32f8434793eb5eafefd80123bdee0cddd637c3"
+                "reference": "8fc6b61b44ffb9d42c92e767368be07d161dfb84"
             },
             "require": {
                 "php": ">=5.2.4"
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-08-18 10:17:32"
+            "time": "2019-08-18 14:24:58"
         },
         {
             "name": "symfony/config",
@@ -3716,6 +3716,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simplejpegquality/",
             "time": "2014-09-28T15:07:47+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.zip?timestamp=1565258901",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/",
+            "time": "2019-08-08T10:08:21+00:00"
         }
     ],
     "packages-dev": [],
@@ -3729,6 +3750,7 @@
         "wpackagist-plugin/imagemagick-engine": 20,
         "wpackagist-plugin/contact-form-7": 20,
         "wpackagist-plugin/nginx-helper": 20,
+        "wpackagist-plugin/wordpress-seo": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
