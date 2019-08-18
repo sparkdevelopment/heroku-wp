@@ -53,12 +53,12 @@
             }
         },
         {
-            "type": "wordpress-plugin",
+            "type": "package",
             "package": {
                 "name": "cmb2/tabs",
                 "version": "1.0.3",
                 "dist": {
-                    "type": "zip",
+                    "type": "wordpress-plugin",
                     "url": "https://github.com/rubengc/cmb2-tabs/archive/master.zip"
                 }
             }
