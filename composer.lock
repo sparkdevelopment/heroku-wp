@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7e45e7f53726788a7cf737814481c3a",
+    "content-hash": "5915bed9f51732de971477a1f62525b5",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -45,7 +45,7 @@
                 "forum": "https://wordpress.org/support/plugin/batcache",
                 "source": "https://github.com/Automattic/batcache"
             },
-            "time": "2016-09-09T18:37:55+00:00"
+            "time": "2016-09-09 18:37:55"
         },
         {
             "name": "composer/ca-bundle",
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-08-18T14:24:58+00:00"
+            "time": "2019-08-18 14:24:58"
         },
         {
             "name": "symfony/config",
@@ -3542,7 +3542,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/health-check.zip?timestamp=1557360809",
+                "url": "https://downloads.wordpress.org/plugin/health-check.zip?timestamp=1565953974",
                 "reference": null,
                 "shasum": null
             },
@@ -3551,7 +3551,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/health-check/",
-            "time": "2019-05-09T00:13:29+00:00"
+            "time": "2019-08-16T11:12:54+00:00"
         },
         {
             "name": "wpackagist-plugin/imagemagick-engine",
@@ -3718,6 +3718,27 @@
             "time": "2014-09-28T15:07:47+00:00"
         },
         {
+            "name": "wpackagist-plugin/speed-booster-pack",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/speed-booster-pack/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/speed-booster-pack.zip?timestamp=1562771021",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/speed-booster-pack/",
+            "time": "2019-07-10T15:03:41+00:00"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "dev-trunk",
             "source": {
@@ -3751,6 +3772,7 @@
         "wpackagist-plugin/contact-form-7": 20,
         "wpackagist-plugin/nginx-helper": 20,
         "wpackagist-plugin/wordpress-seo": 20,
+        "wpackagist-plugin/speed-booster-pack": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
