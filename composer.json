@@ -25,7 +25,7 @@
         "wpackagist-plugin/health-check":"dev-trunk",
         "wpackagist-plugin/imagemagick-engine":"dev-trunk",
         "wpackagist-plugin/contact-form-7":"dev-trunk",
-        "cmb2/tabs": "*",
+        "wpackagist-plugin/cmb2-tabs":"1.0.6",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
@@ -53,17 +53,6 @@
             }
         },
         {
-            "type": "package",
-            "package": {
-                "name": "cmb2/tabs",
-                "version": "1.0.3",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/rubengc/cmb2-tabs/archive/master.zip"
-                }
-            }
-        },
-        {
             "type": "vcs",
             "url": "https://github.com/xyu/batcache"
         },
@@ -87,7 +76,7 @@
                 "wpackagist-plugin/redis-cache",
                 "wpackagist-plugin/secure-db-connection"
             ],
-            "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin", "cmb2/tabs" ],
+            "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
             "vendor/WordPress/WordPress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
         }
     },
