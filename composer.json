@@ -58,7 +58,7 @@
                 "name": "cmb2/tabs",
                 "version": "1.0.3",
                 "dist": {
-                    "type": "wordpress-plugin",
+                    "type": "zip",
                     "url": "https://github.com/rubengc/cmb2-tabs/archive/master.zip"
                 }
             }
@@ -87,7 +87,7 @@
                 "wpackagist-plugin/redis-cache",
                 "wpackagist-plugin/secure-db-connection"
             ],
-            "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
+            "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin", "cmb2/tabs" ],
             "vendor/WordPress/WordPress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
         }
     },
