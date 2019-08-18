@@ -25,6 +25,7 @@
         "wpackagist-plugin/health-check":"dev-trunk",
         "wpackagist-plugin/imagemagick-engine":"dev-trunk",
         "wpackagist-plugin/contact-form-7":"dev-trunk",
+        "cmb2/tabs": "*",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
@@ -48,6 +49,17 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/WordPress/WordPress/archive/4.9.7.zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "cmb2/tabs",
+                "version": "1.0.3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/rubengc/cmb2-tabs/archive/master.zip"
                 }
             }
         },

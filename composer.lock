@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfadd07608a1a3ae8371d561f0761627",
+    "content-hash": "d40244593fe3414bda1ae99367acd063",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -46,6 +46,17 @@
                 "source": "https://github.com/Automattic/batcache"
             },
             "time": "2016-09-09 18:37:55"
+        },
+        {
+            "name": "cmb2/tabs",
+            "version": "1.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/rubengc/cmb2-tabs/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
         },
         {
             "name": "composer/ca-bundle",
