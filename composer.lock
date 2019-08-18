@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfadd07608a1a3ae8371d561f0761627",
+    "content-hash": "0d1170cde4990167985ecfa2171b99f9",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3512,6 +3512,27 @@
             "time": "2019-07-23T17:24:43+00:00"
         },
         {
+            "name": "wpackagist-plugin/comet-cache",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/comet-cache/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/comet-cache.zip?timestamp=1558319652",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/comet-cache/",
+            "time": "2019-05-20T02:34:12+00:00"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "dev-trunk",
             "source": {
@@ -3707,6 +3728,7 @@
         "wpackagist-plugin/health-check": 20,
         "wpackagist-plugin/imagemagick-engine": 20,
         "wpackagist-plugin/contact-form-7": 20,
+        "wpackagist-plugin/comet-cache": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
