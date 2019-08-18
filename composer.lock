@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfadd07608a1a3ae8371d561f0761627",
+    "content-hash": "e41a3fa6fa2508103817d22df05cb65e",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3595,6 +3595,27 @@
             "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
+            "name": "wpackagist-plugin/nginx-helper",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/nginx-helper/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/nginx-helper.zip?timestamp=1564665333",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/nginx-helper/",
+            "time": "2019-08-01T13:15:33+00:00"
+        },
+        {
             "name": "wpackagist-plugin/redis-cache",
             "version": "1.4.3",
             "source": {
@@ -3707,6 +3728,7 @@
         "wpackagist-plugin/health-check": 20,
         "wpackagist-plugin/imagemagick-engine": 20,
         "wpackagist-plugin/contact-form-7": 20,
+        "wpackagist-plugin/nginx-helper": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
