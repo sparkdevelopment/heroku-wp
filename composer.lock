@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "93f7bd0d42bda849181cd20bf2b6bce0",
+    "content-hash": "dfadd07608a1a3ae8371d561f0761627",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1000,7 +1000,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "83ae37d8b8fce3cf506e2bb40b65e99d7b1bd732"
+                "reference": "0c2cb358659070676fbf234e32aac85ded458fc3"
             },
             "require": {
                 "php": ">=5.2.4"
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-08-15 12:24:47"
+            "time": "2019-08-18 08:58:26"
         },
         {
             "name": "symfony/config",
@@ -3695,27 +3695,6 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simplejpegquality/",
             "time": "2014-09-28T15:07:47+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/tabs-cmb2",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/tabs-cmb2/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tabs-cmb2.zip?timestamp=1506035014",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/tabs-cmb2/",
-            "time": "2017-09-21T23:03:34+00:00"
         }
     ],
     "packages-dev": [],
@@ -3728,7 +3707,6 @@
         "wpackagist-plugin/health-check": 20,
         "wpackagist-plugin/imagemagick-engine": 20,
         "wpackagist-plugin/contact-form-7": 20,
-        "wpackagist-plugin/tabs-cmb2": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
