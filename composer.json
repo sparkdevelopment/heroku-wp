@@ -25,7 +25,7 @@
         "wpackagist-plugin/health-check":"dev-trunk",
         "wpackagist-plugin/imagemagick-engine":"dev-trunk",
         "wpackagist-plugin/contact-form-7":"dev-trunk",
-        "wpackagist-plugin/cmb2-tabs":"1.0.6",
+        "wpackagist-plugin/cmb2-tabs":"dev-trunk",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
