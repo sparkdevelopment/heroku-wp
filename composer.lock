@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea0ad92e948211245ab4380be4d9f6d1",
+    "content-hash": "2e8cd8898a4eb2cad5f43167cece1cc2",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3595,6 +3595,27 @@
             "time": "2019-08-01T13:15:33+00:00"
         },
         {
+            "name": "wpackagist-plugin/post-types-order",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-types-order/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-types-order.zip?timestamp=1557592285",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-types-order/",
+            "time": "2019-05-11T16:31:25+00:00"
+        },
+        {
             "name": "wpackagist-plugin/redis-cache",
             "version": "1.4.3",
             "source": {
@@ -3729,6 +3750,7 @@
         "wpackagist-plugin/nginx-helper": 20,
         "wpackagist-plugin/wordpress-seo": 20,
         "wpackagist-plugin/speed-booster-pack": 20,
+        "wpackagist-plugin/post-types-order": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
