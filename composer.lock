@@ -1000,7 +1000,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "6c08e9b24e253aedc0d620c20513c7dadb11bf56"
+                "reference": "16b77b004c5e777a1d17d5347c4b19290938fdfa"
             },
             "require": {
                 "php": ">=5.2.4"
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-08-23 07:14:59"
+            "time": "2019-08-23 12:09:05"
         },
         {
             "name": "symfony/config",
