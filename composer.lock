@@ -1000,7 +1000,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-                "reference": "9f19bacd00992e15cf420bf69480b0897badf0ca"
+                "reference": "3220751864f76e7108a1363402c6c34aebd9a07f"
             },
             "require": {
                 "php": ">=5.2.4"
@@ -1016,7 +1016,7 @@
                 ]
             },
             "description": "https://github.com/sparkdevelopment/laughlandjones-theme.git",
-            "time": "2019-09-25 10:46:14"
+            "time": "2019-10-02 22:32:42"
         },
         {
             "name": "symfony/config",
@@ -3555,15 +3555,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "7.7.2",
+            "version": "7.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/7.7.2"
+                "reference": "tags/7.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.7.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.7.8.zip",
                 "reference": null,
                 "shasum": null
             },
