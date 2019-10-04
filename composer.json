@@ -30,6 +30,7 @@
         "wpackagist-plugin/wordpress-seo":"dev-trunk",
         "wpackagist-plugin/speed-booster-pack":"dev-trunk",
         "wpackagist-plugin/post-types-order":"dev-trunk",
+        "wpackagist-plugin/insert-headers-and-footers":"dev-trunk",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",

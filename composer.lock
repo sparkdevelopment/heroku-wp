@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e8cd8898a4eb2cad5f43167cece1cc2",
+    "content-hash": "3b138940efcd256b51ab756d652743cb",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3554,6 +3554,27 @@
             "time": "2018-10-29T11:17:45+00:00"
         },
         {
+            "name": "wpackagist-plugin/insert-headers-and-footers",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/insert-headers-and-footers/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/insert-headers-and-footers.zip?timestamp=1569280870",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/insert-headers-and-footers/",
+            "time": "2019-09-23T23:21:10+00:00"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "7.8",
             "source": {
@@ -3751,6 +3772,7 @@
         "wpackagist-plugin/wordpress-seo": 20,
         "wpackagist-plugin/speed-booster-pack": 20,
         "wpackagist-plugin/post-types-order": 20,
+        "wpackagist-plugin/insert-headers-and-footers": 20,
         "sparkdevelopment/laughlandjones-theme": 20
     },
     "prefer-stable": true,
