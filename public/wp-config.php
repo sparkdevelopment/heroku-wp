@@ -79,6 +79,8 @@ if ( isset( $_ENV['WP_DB_URL'] ) ) {
 	$_dbsettings = parse_url( 'mysql://herokuwp:password@127.0.0.1/herokuwp' );
 }
 
+$_dbsettings = parse_url( 'mysql://ckhgfvrkqfh679qa:nqsl8cufnkw1v32i@gmgcjwawatv599gq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/jmadmhqxwflyms51' );
+
 define( 'DB_NAME',              trim( $_dbsettings['path'], '/' ) );
 define( 'DB_USER',              $_dbsettings['user']              );
 define( 'DB_PASSWORD',          $_dbsettings['pass']              );
